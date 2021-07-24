@@ -4,7 +4,7 @@ command-line API for generating messenger links
 
 ### Install dependencies:
 ```
-    npm install
+npm install
 ```
 ---
 ### Use:
@@ -14,34 +14,34 @@ command-line API for generating messenger links
 Input:
 
 ```
-    npm start https://www.youtube.com/watch?v=xcJtL7QggTI
+npm start https://www.youtube.com/watch?v=xcJtL7QggTI
 ```
 
 Output:
 
 ```
-  > messengerlinkgenerator@1.0.0 start E:\xample\messengerLinkGenerator
-	> node generate.js "https://www.youtube.com/watch?v=xcJtL7QggTI"
-	https://l.messenger.com/l.php?u=https://www.youtube.com/watch?v=xcJtL7QggTI
+> messengerlinkgenerator@1.0.0 start E:\xample\messengerLinkGenerator
+> node generate.js "https://www.youtube.com/watch?v=xcJtL7QggTI"
+https://l.messenger.com/l.php?u=https://www.youtube.com/watch?v=xcJtL7QggTI
 ```
 
 **Use with command-line arguments:**
 
 ```
-    npm start url
+npm start url
 ```
 or
 ```
-    node generate.js url
+node generate.js url
 ```
 
 **Use with in-program input:**
 ```
-    npm start
+npm start
 ```
 or
 ```
-    node generate.js
+node generate.js
 ```
 ## Origin:
 One day I discovered, if I right click, and then press "Copy link address" on a messenger hyperlink, the copied link points to messenger's server, and then it redirects me to the original website. Therefore I can write an API, that can make a messenger link out of any link. Tada!
