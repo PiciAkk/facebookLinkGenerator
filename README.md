@@ -46,6 +46,6 @@ or
 node generate.js
 ```
 ## Origin:
-One day I discovered something. If I right click, and then press "Copy link address" on a messenger hyperlink, the copied link points to messenger's server, and then it redirects me to the original website. Therefore I can write an API, that can make a messenger link out of any link. Tada!
+Basically, this is just a modified version of my [Messenger Link Generator](https://github.com/PiciAkk/messengerLinkGenerator) with Facebook's "redirecting server" 
 ## Online demo:
 [Click here for online demo](https://replit.com/@PiciAkk/facebookLinkGenerator)
