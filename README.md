@@ -1,6 +1,6 @@
 
-# ﻿Messenger Link Generator
-command-line API for generating messenger links
+# Facebook Link Generator
+command-line API for generating facebook links
 
 ## Usage:
 
@@ -24,7 +24,7 @@ Output:
 ```
 > messengerlinkgenerator@1.0.0 start E:\xample\messengerLinkGenerator
 > node generate.js "https://www.youtube.com/watch?v=xcJtL7QggTI"
-https://l.messenger.com/l.php?u=https://www.youtube.com/watch?v=xcJtL7QggTI
+https://l.facebook.com/l.php?u=https://www.youtube.com/watch?v=xcJtL7QggTI
 ```
 
 **Use with command-line arguments:**
@@ -48,4 +48,4 @@ node generate.js
 ## Origin:
 One day I discovered something. If I right click, and then press "Copy link address" on a messenger hyperlink, the copied link points to messenger's server, and then it redirects me to the original website. Therefore I can write an API, that can make a messenger link out of any link. Tada!
 ## Online demo:
-[Click here for online demo](https://replit.com/@PiciAkk/messengerLinkGenerator)
+[Click here for online demo](https://replit.com/@PiciAkk/facebookLinkGenerator)
