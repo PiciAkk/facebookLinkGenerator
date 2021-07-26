@@ -22,7 +22,7 @@ npm start https://www.youtube.com/watch?v=xcJtL7QggTI
 Output:
 
 ```
-> messengerlinkgenerator@1.0.0 start E:\xample\messengerLinkGenerator
+> facebooklinkgenerator@1.0.0 start E:\xample\facebookLinkGenerator
 > node generate.js "https://www.youtube.com/watch?v=xcJtL7QggTI"
 https://l.facebook.com/l.php?u=https://www.youtube.com/watch?v=xcJtL7QggTI
 ```
