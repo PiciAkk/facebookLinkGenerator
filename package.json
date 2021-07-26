@@ -1,7 +1,7 @@
 {
-  "name": "messengerlinkgenerator",
+  "name": "facebooklinkgenerator",
   "version": "1.0.0",
-  "description": "command-line API for generating messenger links",
+  "description": "command-line API for generating facebook links",
   "main": "generate.js",
   "scripts": {
     "start": "node generate.js",
@@ -9,21 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PiciAkk/messengerLinkGenerator.git"
+    "url": "git+https://github.com/PiciAkk/facebookLinkGenerator.git"
   },
   "keywords": [
-    "messenger",
+    "facebook",
     "link",
     "generator",
     "url",
-    "urlshortener"
+    "urlshortener",
+    "fb"
   ],
   "author": "PiciAkk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PiciAkk/messengerLinkGenerator/issues"
+    "url": "https://github.com/PiciAkk/facebookLinkGenerator/issues"
   },
-  "homepage": "https://github.com/PiciAkk/messengerLinkGenerator#readme",
+  "homepage": "https://github.com/PiciAkk/facebookLinkGenerator#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   }

@@ -10,5 +10,5 @@ if (commandLineArguments.length == 1) {
   process.exit()
 }
 encodedURL = encodeURI(inputURL);
-outputURL = ("https://l.messenger.com/l.php?u=" + encodedURL)
+outputURL = ("https://l.facebook.com/l.php?u=" + encodedURL)
 console.log(outputURL)
