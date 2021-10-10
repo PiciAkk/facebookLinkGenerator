@@ -1,6 +1,6 @@
 
 # Facebook Link Generator
-command-line API for generating facebook links
+command-line app for generating facebook links
 
 ## Usage:
 
